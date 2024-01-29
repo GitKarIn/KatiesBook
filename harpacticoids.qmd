@@ -1,0 +1,9 @@
+# Order Harpacticoida {.unnumbered}
+
+Harpacticoids are distinguished by: - very short antennae - wider urosome relative to other orders - short, splayed caudal rami
+
+![](harpacticoid/harpacticoid.png)
+
+All taxa of Harpacticoida in the Bay-Delta are identified as Harpacticoid UnID.
+
+There are two known species in CDFW samples: - Tigriopus californicus - Harpacticella spp.

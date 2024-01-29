@@ -1,0 +1,31 @@
+# Zooplankton Classifications {.unnumbered}
+
+There are multiple ways to classify zooplankton.
+
+One of the most common is to classify by size, as:
+
+-   Micro
+-   Meso
+-   Macro
+
+## Zooplankton taxa
+
+Classes of micro-zooplankton:
+
+-   Branchiopoda
+
+-   Maxillopoda
+
+Our taxa of interest:
+
+-   Branchiopoda:
+
+    -   Cladocera
+
+-   Maxillopoda:
+
+    -   Copepoda
+
+-   Rotifera (Phylum)
+
+Grouping ID and culturing separate from each other

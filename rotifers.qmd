@@ -1,0 +1,24 @@
+# Phylum Rotifera {.unnumbered}
+
+A Phylum, with poorly resolved relationships
+
+There are many rotifers identified in pump samples:
+
+*Keratella spp.*
+
+*Asplancha spp.*
+
+*Trichocera spp.*
+
+*Synchaeta spp.*
+
+\--\> *Synchaeta bicornis*
+
+*Polyarthra spp.*
+
+There are other (less common) rotifers that processors include in a lumped category called "Other rotifers."
+
+This information was made possible with information from [Tina Enderlin's rotifer guide](tina.qmd) and [ICF's Rotifer Guide](ICF.qmd).
+
+
+The following pages will include detailed descriptions and images of each rotifer.

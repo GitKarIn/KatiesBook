@@ -1,0 +1,47 @@
+project:
+  type: book
+
+book:
+  title: "Zooplankton Identification and Culturing"
+  author: "Katie Hostetler"
+  date: "1/26/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: calanoida.qmd
+      chapters:
+        - pseudo.qmd
+        - sinocalanus.qmd
+    - part: cyclopoids.qmd
+      chapters: 
+        - oithona.qmd
+        - limnoithona.qmd
+    - part: harpacticoids.qmd
+      chapters: 
+        - harpacticella.qmd
+        - tigriopus.qmd
+    - part: rotifers.qmd
+      chapters:
+        - synchaeta.qmd
+    - part: culturing.qmd
+      chapters: 
+        - o-davisae.qmd
+        - o-similis.qmd
+        - l-tetra.qmd
+        - l-sinensis.qmd
+    - references.qmd
+    - part: summary.qmd
+      chapters: 
+        - phillip.qmd
+        - tina.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

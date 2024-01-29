@@ -1,0 +1,28 @@
+# Synchaeta {.unnumbered}
+
+There are two identified taxa in the Bay-Delta:
+
+- *Synchaeta* spp. unidentified
+- *Synchaeta bicornis*
+
+### *Synchaeta* spp.
+
+There are a few body forms. They can be retracted or in their 'creeping' or 'feeding' form.
+
+When preserved, *Synchaeta* are typically retracted into a ball.
+
+::: {.column width="40%"}
+![Retracted form](rotifers/synchaeta-retract.jpg){width=220}
+:::
+
+::: {.column width="59%"}
+
+![](rotifers/synch-compare.png){width=216}
+
+:::
+
+
+
+![Creeping form](rotifers/synchaeta1.jpg){width=250}
+
+Characterized by their four long sensory bristles, pointed corona with two projections.

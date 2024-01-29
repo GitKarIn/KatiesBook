@@ -1,0 +1,35 @@
+# Introduction {.unnumbered}
+
+## Zooplankton Imaging Project Reference Library Development {.unnumbered}
+
+#### Purpose of making this guide {.unnumbered}
+
+My position as the Environmental Scientist on the USBR-CDFW Zooplankton Imaging Project (ZIP) is to bring taxonomic expertise in the development of zooplankton image libraries to identify and count zooplankton using a fluid imaging system.
+
+A large image reference library is required for a deep-learning model to select identifying traits for each taxa. This requires expert verification of each image.
+
+I'm creating this document as a resource to collect all of the identification resources I have found, and show distinguishing traits of key taxa we find in Bay Delta samples for CDFW.
+
+#### How will we obtain enough individuals for the model? {.unnumbered}
+
+To obtain a large image reference library, we will be culturing target species, separating by life stage, and running through the fluid imaging system.
+
+This requires an understanding of zooplankton:
+
+-   distribution
+
+-   preferred conditions (salinity, temperature, light schedule)
+
+-   morphology
+
+# Zooplankton overview {.unnumbered}
+
+Zooplankton are key to nutrient transfer between higher and lower trophic levels in aquatic systems (Banse 1995) and their distribution can indicate environmental conditions (. Understanding the presence of zooplankton in the Delta region can help us understand trends in food availability for fishes of concern and ecosystem health.
+
+## References {.unnumbered}
+
+Banse K. Zooplankton: pivotal role in the control of ocean production, ICES Journal of Marine Science, 1995, vol. 52 (pg. 265-277).
+
+[*zooplankton overview infromation*]{.underline}: Philippe Grosjean, Marc Picheral, Caroline Warembourg, Gabriel Gorsky, Enumeration, measurement, and identification of net zooplankton samples using the ZOOSCAN digital imaging system, \*ICES Journal of Marine Science\*, Volume 61, Issue 4, 2004, Pages 518\--525, \[https://doi.org/10.1016/j.icesjms.2004.03.012\](#0)
+
+As well, zooplankton samples are typically dyed using Rose Bengal, but the FlowCam best photographs identifying traits when samples are undyed.

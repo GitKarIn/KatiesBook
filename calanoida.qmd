@@ -1,0 +1,30 @@
+---
+title: "Order Calanoida"
+format: html
+editor: visual
+---
+
+# Calanoida
+
+This order of copepods are characterized by:
+
+-   Large
+-   Sausage-shaped body
+-   Long antennae (longer than prosome)
+
+![](calanoids/calanoid.png)
+
+
+There are many calanoids in the Delta:
+
+-   *Acartia* spp.
+-   *Acartiella* spp.
+-   *Diaptomus* spp.
+-   *Eurytemora affinis*
+-   *Osphranticum* spp.
+-   *Pseudodiaptomus forbesi*
+-   *Pseudodiaptomus marinus*
+-   *Sinocalanus doerri*
+-   *Tortanus* spp.
+
+Each genus (will have) their separate page

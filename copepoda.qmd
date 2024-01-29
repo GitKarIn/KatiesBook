@@ -1,0 +1,24 @@
+
+# Class Copepoda {.unnumbered}
+
+This class of crustaceans are charcterized by 
+
+
+
+### Life Cycle
+
+Copepods have both males and females and typically sexually reproduce. 
+
+### General Morphology
+
+![](nauplii/nauplii-morph.jpg)
+
+
+### Phylogeny
+
+![](pancrustacea.png)
+
+
+![](oithona_files/copepod-orders1.png)
+The highlighted are the three orders of copepods that are covered in this guide.
+

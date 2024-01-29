@@ -1,0 +1,63 @@
+---
+title: "Order Cyclopoida"
+format: html
+editor: visual
+---
+
+# Cyclopoid {.unnumbered}
+
+Cyclopoids are one of the three copepod orders found in the Bay-Delta.
+
+![](copepod-orders.png)
+
+Calanoida, Cyclopoida, and Harpacticoida are found in brackish-freshwater.
+
+Cyclopoids are defined by these characteristics:
+
+-   Teardrop shaped body
+
+-   Antennae short-medium sized (usually shorter than prosome)
+
+-   5th leg on urosome
+
+-   adult males have 2 kinked antennae
+
+![](cyclopoids/cyclopoid.png){width="123"}
+
+Photos: Lavens & Sorgeloos 1999
+
+![](cyclopoids/cyclopoid-morph.png){width="350"}
+
+Santhosh et al. 2019
+
+Male and Females are distinguishable by size and body form. Male cyclopoids have kinked antennae and are smaller in size. See [Invertebrates of the Bay-Delta Region]()
+
+Cyclopoids that are counted in CDFW zooplankton pump samples include:
+
+-   *Limnoithona tetraspina* adults
+
+-   *Limnoithona sinensis* adults
+
+-   *Limnoithona spp.* copepodites
+
+-   *Oithona davisae* adults
+
+-   *Oithona similis* adults
+
+-   *Oithona* copepodites
+
+-   Other cyclopoid copepodites
+
+Cyclopoids counted in CB samples include:
+
+-   all **adults** listed above
+
+-   *Acanthocyclops vernalis*
+
+-   Other cylopoid adults
+
+### References:
+
+Lavens, P. and Sorgeloos, P. (1996). Manual on the Production and Use of Live Food for Aquaculture. FAO Fisheries Technical Paper No. 361, Rome.
+
+Khodami, Sahar & McArthur, J. & Blanco-Bercial, Leocadio & Martinez Arbizu, Pedro. (2017). Molecular Phylogeny and Revision of Copepod Orders (Crustacea: Copepoda). Scientific Reports. 7. 10.1038/s41598-017-06656-4

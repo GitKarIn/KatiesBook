@@ -1,0 +1,97 @@
+# Genus *Limnoithona* {.unnumbered}
+
+## *Limnoithona* {.unnumbered}
+
+There are two species of this genus in the Delta:
+
+-   *Limnoithona tetraspina*
+-   *Limnoithona sinensis*
+
+This group is characterized by:
+
+-   small cyclopoid copepods, up to 0.55 mm (Barroso do Abiahy 2006; Ferrari & Orsi 1984)
+-   long caudal rami and setae
+-   long*er* antennae compared to other cyclopoids
+
+## *Limnoithona tetraspina* {.unnumbered}
+
+::: columns
+::: {.column width="45%"}
+-   very small cyclopoid found in low (not 0) salinity zones
+
+-   Smooth body segments
+
+-   Pointed top of metasome
+
+-   Spines laterally at end of each sterna -- hence "tetra**spina**"
+:::
+
+::: {.column width="5%"} 
+:::
+
+::: {.column width="49%"}
+::: {align="center"}
+![*Limnoithona tetraspina* Female](limnoithona/limnotetraspinaF.png){width="100"}
+
+Falavigna & Ferrari 2007
+:::
+:::
+:::
+
+::: {.column width="41%"}
+![*L. tetraspina* male, rami length highlighted](limnoithona/tetra-urosome.png.jpg){width=172}
+
+:::
+
+::: {.column width="58%"}
+
+![*L. tetraspina* adult male and female, genital somite highlighted](limnoithona/genital-somite.jpg){width=420}
+
+:::
+
+
+
+## *Limnoithona sinensis* {.unnumbered}
+
+::: columns
+::: {.column width="60%"}
+-   found in freshwater
+
+-   Lobed body segments, curved from the sides
+
+-   Wider top of metasome
+:::
+
+::: {.column width="40%"}
+::: {style="font-size: 40%;"}
+![*Limnoithona sinensis* Female](limnoithona/limnosinensisF.png){width="350"}
+
+Yoon & Chang 2008
+:::
+:::
+:::
+
+
+::: columns
+
+::: {.column width="35%"}
+![](limnoithona/sinensis-side.jpg)
+Lobed body segments
+
+:::
+
+::: {.column width="39%"}
+![](sinensis-adult1.jpg)
+
+*L sinensis* adult
+:::
+
+### References
+
+-   Barroso do Abiahy, Bernard; da Rocha, Carlos Falavigna; Ferrari, Frank D. (2006) [Redescription of *Limnoithona tetraspina* Zhang et Li 1976 (Copepoda, Cyclopoida) with a discusssion of character states shared with the Oithonidae and older cyclopoids.]{.underline}, *Invertebrate Zoology* 3(3): 115-135
+
+-   Falavigna, Eduardo & Ferrari, Frank & Hipolito, Manuel. (2007). Redescription of Limnoithona tetraspina Zhang et Li, 1976 (Copepoda, Cyclopoida) with a discussion of character states shared with the Oithonidae and older cyclopoids. Invertebrate Zoology 3(2). 115-135.
+
+-   Ferrari, Frank D., Orsi, James (1984) [*Oithona davisae*, new species, and *Limnoithona sinensis* (Burckhardt, 1912) (Copepoda: Oithonidae) from the Sacramento-San Joaquin Estuary, California]{.underline}, *Journal of Crustacean Biology* 4(1): 106-126
+
+-   Yoon, Hong-Ju & Chang, Cheon. (2008). Two Brackish Cyclopoid Copepods from Southern Coast of Korea. Korean Journal of Systematic Zoology. 24. 241-250.

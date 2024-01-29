@@ -1,0 +1,125 @@
+# Genus *Oithona* {.unnumbered}
+
+## *Oithona* {.unnumbered}
+
+There are two species of *Oithona* in the Delta region:
+
+-   *Oithona davisae*
+
+-   *Oithona similis*
+
+This genus contains:
+
+-   high salinity cyclopoid copepods
+
+-   small relative to other copepods: 0.47 mm - 1 mm
+
+    -   other copepods typically are 0.8 mm - 2.0 mm
+
+# Identification {.unnumbered}
+
+#### Key characteristics: {.unnumbered}
+
+::: columns
+-   hook-like rostrum at top of prosome in dorsal view (image below)
+
+-   shallow split in rami (right image)
+
+::: {.column width="30%"}
+![](Oithona/oithona-rostrum-draw.png){width="143"}
+
+Hook-like rostrum
+:::
+
+::: {.column width="70%"}
+![](Oithona/oithona-rami-draw.png){width="140"}
+
+Short rami (adult female)
+:::
+:::
+
+### *Oithona davisae* {.unnumbered}
+
+-   smaller of the two: 0.47-0.53 mm (males); 0.54-0.62mm (females) (Ferarri and Orsi 1984)
+
+-   named after Sally Davis (now Skelton), who processes pump samples
+
+![](Oithona/o-d-female.jpg){width="214"} ![](Oithona/o-d-beak.jpg){width="200"} ![](Oithona/o-d-male.jpg){width="231"}
+
+*Oithona davisae* adult female rostrum *Oithona davisae* adult male
+
+::: columns
+::: {.column width="50%"}
+![](Oithona/o-d-juv.png){width="285"}
+
+*Oithona davisae* juvenile
+:::
+
+::: {.column width="50%"}
+![](Oithona/o-d-beak2.jpg){width="270"}
+
+*Oithona davisae* beak
+:::
+:::
+
+## *Oithona similis* {.unnumbered}
+
+-   males size range 0.6 mm - 0.7 mm; females 0.7 mm - 1.0 mm (Scripps Institute of Oceanography)
+-   longer antennae
+-   very rare to find in pump samples
+    -   only 38 identifications in pump samples from 2010-2022
+
+![](Oithona/o-similis.jpg){width="250"} ![](Oithona/o-similis-draw.jpg){width="250"}
+
+Scripps Institute of Oceanography, Dawson and Knatz 1980
+
+## Comparison Photos {.unnumbered}
+
+### *Oithona davisae* and *Limnoithona spp.* {.unnumbered}
+
+::: columns
+::: {style="font-size: 96%;"}
+::: {.column width="40%"}
+![](Oithona/o-d-uro.jpg){width="244"}
+
+*Oithona davisae* adult
+
+- short rami
+:::
+
+
+
+::: {.column width="59%"}
+![](limnoithona/l-tetra-uro.png){width="155"}
+
+*Limnoithona tetraspina* adult
+
+- long rami
+:::
+:::
+:::
+
+
+
+## Comparison photos {.unnumbered}
+
+::: columns
+::: {style="font-size: 96%;"}
+::: {.column width="40%"}
+![](Oithona/o-d-juv1.png){width="206"}
+
+*Oithona davisae* juvenile
+:::
+
+::: {.column width="59%"}
+![](limnoithona/sinensis-adult1.jpg){width="212"}
+
+*Limnoithona sinensis* adult
+:::
+:::
+:::
+
+### References {.unnumbered}
+
+-   Dawson, J.K. & G. Knatz. (1980). Illustrated key to the planktonic copepods of San Pedro Bay, California. Allan Hancock Foundation, Technical Report. 2:1-106.
+-   Scripps Institute of Oceanography, Zooplankton Guide. https://sio-legacy.ucsd.edu/zooplanktonguide/

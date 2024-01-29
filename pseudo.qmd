@@ -1,0 +1,58 @@
+# Genus *Pseudodiaptomus* {.unnumbered}
+
+*Pseudodiaptomus forbesii* and *Pseudodiaptomus marinus*
+
+Distinguishable by metasomal segments
+
+### Nauplii {.unnumbered}
+
+#### *Pseudodiaptomus forbesi* nauplii {.unnumbered}
+
+::: {style="font-size:85%;"}
+-   long spine on the right (viewing dorsally)
+
+![](pseudodiaptomus/pseudo-naup4.jpg){width="339"} ![](pseudodiaptomus/pseudo-naup2.jpg){width="353"}
+:::
+
+#### *Pseudodiaptomus marinus* nauplii {.unnumbered}
+
+::: columns
+::: {style="font-size:85%;"}
+::: {.column width="70%"}
+-   long spine on the left (dorsal view)
+
+![](pseudodiaptomus/p-marinus-naup.jpg){width="310"} ![](pseudodiaptomus/p-marinus-naup1.jpg){width="259"}
+:::
+
+::: {.column width="29%"}
+![](pseudodiaptomus/p-marinus-ventral.jpg) ventral view
+:::
+:::
+:::
+
+### ZOOPER water quality parameters {.unnumbered}
+
+#### *Pseudodiaptomus* nauplii relative to SALINITY gradient {.unnumbered}
+
+### Appendix: {.unnumbered}
+
+::: {style="font-size:84%;"}
+-   Phillip Poirier's Zooplankton presentation
+-   Colin Brennan (CDFW) nauplii photos
+-   Tina Enderlin (CDFW) nauplii ID tips
+-   John Durand (UCD) nauplii drawings
+
+::: columns
+::: {.column width="29%"}
+![*Pseudodiaptomus forbesi* nauplii, day 6](nauplii/durand-p-forb.jpg){width="340"}
+:::
+
+::: {.column width="29%"}
+![*Pseudodiaptomus forbesi* nauplii, stage 2](nauplii/durand-p-forb2.jpg){width="300"}
+:::
+
+::: {.column width="41%"}
+![*Pseudodiaptomus forbesi* naupliar stages](nauplii/p-forbesi-stages.jpg){width="350"}
+:::
+:::
+:::

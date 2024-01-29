@@ -1,0 +1,118 @@
+
+# *Limnoithona sinensis* culturing {.unnumbered}
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+
+
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+set.seed(16)
+
+library(zooper)
+MyZoops <- Zoopsynther(Data_type = "Community", 
+                       #Sources = c("EMP"), 
+                       Size_class = "Micro", 
+                       Date_range = c("1990-10-01", "2023-09-30"))
+
+```
+
+
+```{r, out.width='80%',  fig.align='left'}
+#| echo: false
+#| message: false
+#| warning: false
+
+
+MyZoops%>%
+  filter(!is.na(Temperature))%>%
+           mutate(Temperature_zone=case_when(
+             Temperature < 14 ~ "under 14°C",
+             Temperature >= 14 & Temperature <= 18 ~ "14-18°C",
+             Temperature > 18 ~ "above 18°C"))%>%
+           mutate(Temperature_zone=factor(Temperature_zone, levels=c("under 14°C", "14-18°C", "above 18°C")))%>%
+  group_by(Year,Phylum, Class, Order, Family, Genus, Species, Lifestage, Taxlifestage, Temperature_zone)%>%
+  summarise(CPUE=mean(CPUE, na.rm=T), .groups="drop")%>%
+  arrange(Phylum, Class, Order, Family, Genus, Species, Lifestage)%>%
+  filter(Species == "Limnoithona sinensis")%>% 
+  mutate(Taxlifestage=factor(Taxlifestage, unique(Taxlifestage)))%>%
+  ggplot(aes(x=Year, y=CPUE))+
+  geom_bar(stat="identity", color="black", size=0.01, aes(fill=Taxlifestage))+
+  facet_wrap(~Temperature_zone, nrow=1)+
+  coord_cartesian(expand=0)+
+  scale_x_continuous(breaks = function(x) unique(floor(pretty(seq(min(x), max(x)), n=3))), expand=c(0,0))+
+  scale_fill_manual(values=sample(colorRampPalette(brewer.pal(5, "Set2"))(length(unique(MyZoops$Taxlifestage)))), 
+                    name="Taxa and life stage", 
+                    guide = guide_legend(ncol=3, title.position = "top", title.hjust = 0.5))+
+  ylab(bquote(Average~CPUE~"("*Catch*"/"*m^3*")"))+
+  theme_bw()+
+  theme(panel.grid=element_blank(), text=element_text(size=14), legend.text = element_text(size=8), 
+        legend.key.size = unit(10, "points"), strip.background=element_blank(), legend.position = "bottom", 
+        legend.background = element_rect(color="black"), axis.text.x=element_text(angle=45, hjust=1))
+
+```
+
+Bashevkin et al. 2023
+
+### Relative to SALINITY gradient
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+
+
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+set.seed(16)
+
+library(zooper)
+MyZoops <- Zoopsynther(Data_type = "Community", 
+                       #Sources = c("EMP"), 
+                       Size_class = "Micro", 
+                       Date_range = c("1990-10-01", "2023-09-30"))
+
+
+
+```
+
+```{r, out.width='80%',  fig.align='left'}
+#| echo: false
+#| message: false
+#| warning: false
+
+MyZoops%>%
+  filter(!is.na(SalSurf))%>%
+          mutate(Salinity_zone=case_when(
+    SalSurf < 0.5 ~ "Freshwater (under 0.5 PSU)",
+    SalSurf > 0.5 & SalSurf < 6 ~ "Low salinity (0.5-6 PSU)",
+    SalSurf > 6 ~ "High salinity (over 6 PSU)"
+  ))%>%
+  mutate(Salinity_zone=factor(Salinity_zone, levels=c("Freshwater (under 0.5 PSU)", "Low salinity (0.5-6 PSU)", "High salinity (over 6 PSU)")))%>%
+  group_by(Year,Phylum, Class, Order, Family, Genus, Species, Lifestage, Taxlifestage, Salinity_zone)%>%
+  summarise(CPUE=mean(CPUE, na.rm=T), .groups="drop")%>%
+  arrange(Phylum, Class, Order, Family, Genus, Species, Lifestage)%>%
+  filter(Species == "Limnoithona sinensis")%>% 
+  mutate(Taxlifestage=factor(Taxlifestage, unique(Taxlifestage)))%>%
+  ggplot(aes(x=Year, y=CPUE))+
+  geom_bar(stat="identity", color="black", size=0.01, aes(fill=Taxlifestage))+
+  facet_wrap(~Salinity_zone, nrow=1)+
+  coord_cartesian(expand=0)+
+  scale_x_continuous(breaks = function(x) unique(floor(pretty(seq(min(x), max(x)), n=3))), expand=c(0,0))+
+  scale_fill_manual(values=sample(colorRampPalette(brewer.pal(10, "RdYlGn"))(length(unique(MyZoops$Taxlifestage)))), 
+                    name="Taxa and life stage", 
+                    guide = guide_legend(ncol=3, title.position = "top", title.hjust = 0.5))+
+  ylab(bquote(Average~CPUE~"("*Catch*"/"*m^3*")"))+
+  theme_bw()+
+  theme(panel.grid=element_blank(), text=element_text(size=14), legend.text = element_text(size=8), 
+        legend.key.size = unit(10, "points"), strip.background=element_blank(), legend.position = "bottom", 
+        legend.background = element_rect(color="black"), axis.text.x=element_text(angle=45, hjust=1))
+
+```

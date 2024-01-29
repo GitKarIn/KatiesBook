@@ -1,0 +1,161 @@
+
+# *Oithona davisae* culturing {.unnumbered}
+
+### Distribution
+
+![](oithona/oithona-davisae-loc.png)
+
+Smithsonian Environmental Research Center
+
+
+*O. davisae* is native to Japan region, but has colonized other temparate marine waters.
+
+
+### Relative to TEMPERATURE gradient
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+
+
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+set.seed(16)
+
+library(zooper)
+MyZoops <- Zoopsynther(Data_type = "Community", 
+                       #Sources = c("EMP"), 
+                       Size_class = "Micro", 
+                       Date_range = c("1990-10-01", "2023-09-30"))
+
+```
+
+
+```{r, out.width='80%',  fig.align='left'}
+#| echo: false
+#| message: false
+#| warning: false
+
+
+MyZoops%>%
+  filter(!is.na(Temperature))%>%
+           mutate(Temperature_zone=case_when(
+             Temperature < 14 ~ "under 14°C",
+             Temperature >= 14 & Temperature <= 18 ~ "14-18°C",
+             Temperature > 18 ~ "above 18°C"))%>%
+           mutate(Temperature_zone=factor(Temperature_zone, levels=c("under 14°C", "14-18°C", "above 18°C")))%>%
+  group_by(Year,Phylum, Class, Order, Family, Genus, Species, Lifestage, Taxlifestage, Temperature_zone)%>%
+  summarise(CPUE=mean(CPUE, na.rm=T), .groups="drop")%>%
+  arrange(Phylum, Class, Order, Family, Genus, Species, Lifestage)%>%
+  filter(Species == "Oithona davisae")%>% 
+  mutate(Taxlifestage=factor(Taxlifestage, unique(Taxlifestage)))%>%
+  ggplot(aes(x=Year, y=CPUE))+
+  geom_bar(stat="identity", color="black", size=0.01, aes(fill=Taxlifestage))+
+  facet_wrap(~Temperature_zone, nrow=1)+
+  coord_cartesian(expand=0)+
+  scale_x_continuous(breaks = function(x) unique(floor(pretty(seq(min(x), max(x)), n=3))), expand=c(0,0))+
+  scale_fill_manual(values=sample(colorRampPalette(brewer.pal(5, "Set2"))(length(unique(MyZoops$Taxlifestage)))), 
+                    name="Taxa and life stage", 
+                    guide = guide_legend(ncol=3, title.position = "top", title.hjust = 0.5))+
+  ylab(bquote(Average~CPUE~"("*Catch*"/"*m^3*")"))+
+  theme_bw()+
+  theme(panel.grid=element_blank(), text=element_text(size=14), legend.text = element_text(size=8), 
+        legend.key.size = unit(10, "points"), strip.background=element_blank(), legend.position = "bottom", 
+        legend.background = element_rect(color="black"), axis.text.x=element_text(angle=45, hjust=1))
+
+```
+
+Bashevkin et al. 2023
+
+### Relative to SALINITY gradient
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: false
+
+
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+set.seed(16)
+
+library(zooper)
+MyZoops <- Zoopsynther(Data_type = "Community", 
+                       #Sources = c("EMP"), 
+                       Size_class = "Micro", 
+                       Date_range = c("1990-10-01", "2023-09-30"))
+
+
+
+```
+
+```{r, out.width='80%',  fig.align='left'}
+#| echo: false
+#| message: false
+#| warning: false
+
+MyZoops%>%
+  filter(!is.na(SalSurf))%>%
+          mutate(Salinity_zone=case_when(
+    SalSurf < 0.5 ~ "Freshwater (under 0.5 PSU)",
+    SalSurf > 0.5 & SalSurf < 6 ~ "Low salinity (0.5-6 PSU)",
+    SalSurf > 6 ~ "High salinity (over 6 PSU)"
+  ))%>%
+  mutate(Salinity_zone=factor(Salinity_zone, levels=c("Freshwater (under 0.5 PSU)", "Low salinity (0.5-6 PSU)", "High salinity (over 6 PSU)")))%>%
+  group_by(Year,Phylum, Class, Order, Family, Genus, Species, Lifestage, Taxlifestage, Salinity_zone)%>%
+  summarise(CPUE=mean(CPUE, na.rm=T), .groups="drop")%>%
+  arrange(Phylum, Class, Order, Family, Genus, Species, Lifestage)%>%
+  filter(Species == "Oithona davisae")%>% 
+  mutate(Taxlifestage=factor(Taxlifestage, unique(Taxlifestage)))%>%
+  ggplot(aes(x=Year, y=CPUE))+
+  geom_bar(stat="identity", color="black", size=0.01, aes(fill=Taxlifestage))+
+  facet_wrap(~Salinity_zone, nrow=1)+
+  coord_cartesian(expand=0)+
+  scale_x_continuous(breaks = function(x) unique(floor(pretty(seq(min(x), max(x)), n=3))), expand=c(0,0))+
+  scale_fill_manual(values=sample(colorRampPalette(brewer.pal(10, "RdYlGn"))(length(unique(MyZoops$Taxlifestage)))), 
+                    name="Taxa and life stage", 
+                    guide = guide_legend(ncol=3, title.position = "top", title.hjust = 0.5))+
+  ylab(bquote(Average~CPUE~"("*Catch*"/"*m^3*")"))+
+  theme_bw()+
+  theme(panel.grid=element_blank(), text=element_text(size=14), legend.text = element_text(size=8), 
+        legend.key.size = unit(10, "points"), strip.background=element_blank(), legend.position = "bottom", 
+        legend.background = element_rect(color="black"), axis.text.x=element_text(angle=45, hjust=1))
+
+```
+
+
+#### Salinity range: 
+
+Lowest found: 0.1 PSU in the field (Sakaguchi et al. 2011)
+
+Prefers salinities above 12 PSU (Ferrari and Orsi 1984), highest experimentally 40 PSU (Svetlichny and Hubareva 2014)
+
+
+### References
+
+
+-   Bashevkin, S. M., R. Hartman, M. Thomas, A. Barros, C. Burdi, A. Hennessy, T. Tempel, K. Kayfetz, K. Alstad, and C. Pien. 2023. Interagency Ecological Program: Zooplankton abundance in the Upper San Francisco Estuary from 1972-2021, an integration of 7 long-term monitoring programs. ver 4. Environmental Data Initiative.
+   -   Lavens, P. & P. Sorgeloos (1999). Manual on the production and use of live food for aquaculture. FAO Fisheries Technical Paper No. 361. FAO, Rome, Italy.
+    -   Oithona davisae. Marine Invasions Research at the Smithsonian Environmental Research Center.
+    -   Santhosh L, Lyons PG, Rojas JC, Ciesielski TM, Beach S, Farnan JM, Arora V (2019). Characterising ICU-ward handoffs at three academic medical centres: process and perceptions. BMJ Qual Saf., Volume 8.
+    -   File:World map torrid.svg. (2020, January 25). Wikimedia Commons.
+  
+
+## References continued
+
+-   Information:
+    -   Atkinson, Angus (1998). Life cycle strategies of epipelagic copepods in the Southern Ocean. Journal of Marine Systems,Volume 15, Issues 1--4.
+    -   Cornils, Astrid; Wend-Heckmann, Britta, & Christoph Held (2017). Global phylogeography of Oithona similis s.l. (Crustacea, Copepoda, Oithonidae). Molecular Phylogenetics and Evolution,Volume 107.
+    -   Ferrari, F.D. & J.J. Orsi. (1984). Oithona davisae, new species, and Limnoithona sinensis (Burckhardt, 1912) (Copepoda: Oithonidae) from the Sacramento-San Joaquin Estuary, California. Journal of Crustacean Biology, Volume 4, Issue 1.
+    -   Gallienne, Chris & Robins, D. (2001). Is Oithona the most important copepod in the world's oceans? Journal of Plankton Research. Volume 23, Issue 10.
+    -   Sakaguchii, Sakiko Orui; Ueda, Hiroshi; Ohtsuka, Susumu; Soh, Young Ho & Yoon, Ho Yoon (2011). Zoogeography of planktonic brackish-water calanoid copepods in western Japan with comparison with neighboring Korean fauna, Plankton & Benthos Research, Volume 6.
+    -   Scripps Institute of Oceanography, Zooplankton Guide, https://sio-legacy.ucsd.edu/zooplanktonguide/species/oithona-similis
+    -   Svetlichny, Leonid & Elena Hubareva (2014). Salinity tolerance of alien copepods Acartia tonsa and Oithona davisae in the Black Sea, Journal of Experimental Marine Biology and Ecology, Volume 461.
+    -   Turner, Jefferson (2004). The importance of small planktonic copepods and their roles in pelagic marine food webs. Zool Stud. Zoological Studies, Volume 43.
+    -   Uye, Shin-ichi & Sano, Kazuhiro (1995). Seasonal reproductive biology of the small cyclopoid copepod Oithona davisae in temperate eutrophic inlet. Marine Ecology Progress Series, Volume 118.
+    -   Wang, Lianggen & Du, Feiyan & Wang, Xuehui & Li, Yafang & Ning, Jiajia. (2017). Distribution and role of the genus Oithona (Copepoda: Cyclopoida) in the South China Sea. Oceanologia, Volume 59.
