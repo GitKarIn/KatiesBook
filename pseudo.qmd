@@ -1,8 +1,42 @@
 # Genus *Pseudodiaptomus* {.unnumbered}
 
+Calanoid copepod with short, splayed rami 
+- strong spines on end of rami
+
 *Pseudodiaptomus forbesii* and *Pseudodiaptomus marinus*
 
 Distinguishable by metasomal segments
+
+
+### *Pseudodiaptomus forbesii*
+
+First metasomal segment >50% metasomal length
+
+- gravid females have two egg sacs
+
+::: columns
+::: {.column width="33%"}
+![*P forbesi* gravid female](Pseudodiaptomus/p-forbesi-gravid.png){width=320}
+
+:::
+
+:::
+
+### *Pseudodiaptomus marinus*
+
+First metasomal segment <50% metasomal length
+
+- gravid females have one egg sac
+
+::: columns
+
+::: {.column width="33%"}
+
+![*P. marinus* gravid female](Pseudodiaptomus/p-marinus-gravid.png)
+
+:::
+
+:::
 
 ### Nauplii {.unnumbered}
 

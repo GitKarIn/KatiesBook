@@ -1,8 +1,27 @@
+
 # Genus *Sinocalanus* {.unnumbered}
 
-#### *Sinocalanus doerri* nauplii
+### *Sinocalanus doerri* nauplii
 
+::: columns
+
+::: {.column width="33%"}
 ![](sinocalanus/sino-d-naup.jpg)
+:::
+
+
+::: {.column width="33%"}
+
+![](sinocalanus/sino-naup-spine.jpg)
+:::
+
+::: {.column width="32%"}
+![](sinocalanus/sino-naup-side.jpg)
+:::
+
+:::
 
 -   long spine on the left, medium spine on the right
 -   longer body than *Pseudodiaptomus*
+
+More information on *Sinocalanus* in [Phillip Porier's ID Guide](phillip.qmd), Slide 13.

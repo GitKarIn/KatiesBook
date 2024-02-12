@@ -50,9 +50,9 @@ Short rami (adult female)
 
 ::: columns
 ::: {.column width="50%"}
-![](Oithona/o-d-juv.png){width="285"}
+![](Oithona/o-d-male.jpg){width="285"}
 
-*Oithona davisae* juvenile
+*O. davisae* adult male
 :::
 
 ::: {.column width="50%"}
@@ -98,6 +98,16 @@ Scripps Institute of Oceanography, Dawson and Knatz 1980
 :::
 :::
 :::
+
+
+### *Oithona* juveniles
+
+- species cannot be determined in juveniles
+- incomplete antennae, <5 legs, and incomplete urosome
+
+![](Oithona/o-d-juv.png){width="285"}
+
+*Oithona davisae* juvenile
 
 
 

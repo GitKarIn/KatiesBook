@@ -1,0 +1,54 @@
+---
+title: "*Pseudodiaptomus forbesi* identification guide"
+author: "John Durand"
+format: html
+editor: visual
+---
+
+![](Pseudodiaptomus/durand-pics/durand1.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand2.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand3.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand4.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand5.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand6.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand7.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand8.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand9.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand10.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand11.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand12.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand13.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand14.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand15.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand16.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand17.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand18.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand19.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand20.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand21.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand22.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand23.jpg){width=450}
+
+![](Pseudodiaptomus/durand-pics/durand24.jpg){width=450}

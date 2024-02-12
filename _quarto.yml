@@ -34,12 +34,13 @@ book:
       chapters: 
         - phillip.qmd
         - tina.qmd
+        - durand.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
   pdf:
     documentclass: scrreprt
 
